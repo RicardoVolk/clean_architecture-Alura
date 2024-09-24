@@ -39,7 +39,7 @@ class Entry {
       image: map['image'] ?? '',
       description: map['description'] ?? '',
       commonLocations:
-          jsonEncode(map['common_location'] ?? ['Sem Localização']),
+          jsonEncode(map['common_locations'] ?? ['Sem Localização']),
       category: map['category'] ?? '',
     );
   }
